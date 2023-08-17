@@ -1,0 +1,84 @@
+{
+    "inventary": [
+        {
+            "id": 1,
+            "title": "Vestido floral primaveral",
+            "price": 49.99,
+            "description": "Un hermoso vestido floral perfecto para la temporada de primavera. Hecho con tela ligera y cómoda.",
+            "category": "Vestidos",
+            "image": "imagen1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Camiseta básica blanca",
+            "price": 19.99,
+            "description": "Una camiseta básica de algodón en color blanco. Ideal para combinar con cualquier outfit.",
+            "category": "Camisetas",
+            "image": "imagen2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Jeans ajustados",
+            "price": 59.99,
+            "description": "Jeans ajustados de corte moderno. Confeccionados con denim de alta calidad y diseño elegante.",
+            "category": "Pantalones",
+            "image": "imagen3.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Chaqueta de cuero clásica",
+            "price": 129.99,
+            "description": "Chaqueta de cuero genuino con estilo clásico. Perfecta para lucir audaz y elegante.",
+            "category": "Chaquetas",
+            "image": "imagen4.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Zapatillas deportivas AirFlex",
+            "price": 89.99,
+            "description": "Zapatillas deportivas con tecnología AirFlex para mayor comodidad y amortiguación durante el ejercicio.",
+            "category": "Calzado",
+            "image": "imagen5.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Blusa de encaje elegante",
+            "price": 39.99,
+            "description": "Blusa de encaje con diseño elegante. Ideal para ocasiones especiales o salidas nocturnas.",
+            "category": "Blusas",
+            "image": "imagen6.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Pantalón de vestir clásico",
+            "price": 69.99,
+            "description": "Pantalón de vestir con corte clásico y acabado profesional. Perfecto para reuniones formales.",
+            "category": "Pantalones",
+            "image": "imagen7.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Sombrero de ala ancha",
+            "price": 29.99,
+            "description": "Sombrero de ala ancha para protegerte del sol con estilo. Hecho de materiales duraderos.",
+            "category": "Accesorios",
+            "image": "imagen8.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Vestido de noche elegante",
+            "price": 79.99,
+            "description": "Vestido de noche elegante con detalles brillantes. Ideal para eventos formales y fiestas.",
+            "category": "Vestidos",
+            "image": "imagen9.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Suéter de punto suave",
+            "price": 49.99,
+            "description": "Suéter de punto suave y cálido, perfecto para los días fríos. Diseño cómodo y versátil.",
+            "category": "Suéteres",
+            "image": "imagen10.jpg"
+        }
+    ]
+}
