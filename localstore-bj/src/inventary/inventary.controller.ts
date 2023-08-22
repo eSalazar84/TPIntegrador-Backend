@@ -1,4 +1,4 @@
-import { Controller, Get, Param } from '@nestjs/common';
+import { Controller, Get, Param, Post, Body, Delete, Put } from '@nestjs/common';
 import { InventaryService } from './inventary.service';
 import { Inventary } from './inventary.interface';
 
@@ -9,16 +9,33 @@ import { Inventary } from './inventary.interface';
 @Controller('inventary')
 export class InventaryController {
     //Declaras las dependencias que necesitas en el constructor.
-    constructor(private readonly inventaryService: InventaryService) {}
+    constructor(private readonly inventaryService: InventaryService) { }
 
     @Get()
-    getInventary(): Promise<Inventary[]>{
-        return this.inventaryService.getInventary();
+    getInvtry(): Promise<Inventary[]> {
+        return this.inventaryService.getInvtry();
     }
 
     @Get(':id')
-    getInventaryById(@Param('id') id:number): Promise<Inventary>{
-        return this.inventaryService.getInventaryById(id)
+    getInvtryById(@Param('id') id: number): Promise<Inventary> {
+        return this.inventaryService.getInvtryById(id)
     }
+
+    @Post()
+    createInvtry(@Body() invtry: Inventary): Promise<Inventary> {
+        return this.inventaryService.createInvtry(invtry)
+    }
+
+    @Delete(':id')
+    deleteInvtryById(@Body() id: number): Promise<Inventary> {
+        return this.inventaryService.getInvtryById(id)
+    }
+
+    @Put(':id')
+    updateInvtryById(@Param('id') id: number, @Body() invtry: Inventary): Promise<Inventary> {
+        return this.inventaryService.updateInvtryById(id, invtry)
+    }
+
+
 
 }
