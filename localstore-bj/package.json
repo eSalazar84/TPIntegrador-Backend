@@ -9,7 +9,7 @@
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
-    "db":"json-server ./data/inventary.json --w --port 3030",
+    "db": "json-server ./data/inventory.json ./data/users.json --w --port 3030",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",

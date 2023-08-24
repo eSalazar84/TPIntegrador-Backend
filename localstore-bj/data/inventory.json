@@ -1,5 +1,5 @@
 {
-  "inventary": [
+  "inventory": [
     {
       "id": 1,
       "title": "Vestido floral primaveral",
@@ -87,6 +87,14 @@
       "category": "Niños",
       "image": "imagen11.jpg",
       "id": 11
+    },
+    {
+      "id": 12,
+      "title": "Camiseta básica blanca",
+      "price": 19.99,
+      "description": "Una camiseta básica de algodón en color blanco. Ideal para combinar con cualquier outfit.",
+      "category": "Camisetas",
+      "image": "imagen2.jpg"
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+    "users": [
+        {
+            "createdAt": "2023-07-14T08:49:57.780Z",
+            "name": "Emiliano",
+            "lastName": "Salazar",
+            "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/575.jpg",
+            "email": "salazaremiliano84@gmail.com",
+            "rol": "Administrator",
+            "dni": "31104967",
+            "password": "12345",
+            "id": "1"
+        },
+        {
+            "createdAt": "2023-07-13T23:47:49.173Z",
+            "name": "Ambrose",
+            "lastName": "Schamberger",
+            "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/252.jpg",
+            "email": "Bart44@yahoo.com",
+            "subject": [],
+            "dni": "dni 2",
+            "password": "1976-10-14T06:03:52.096Z",
+            "id": "2"
+        }
+    ]
+}

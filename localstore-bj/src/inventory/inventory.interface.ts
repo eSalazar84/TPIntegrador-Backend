@@ -1,4 +1,4 @@
-export interface Inventary {
+export interface Inventory {
     id: number,
     title: string,
     price: number,

@@ -1,23 +1,19 @@
-import { useState, useEffect } from 'react'
-import { getAllInvtry } from "../services/inventaryServices";
-import Cards from './components/Cards';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Login from './pages/Login';
+import Home from './pages/Home'
 import './App.css'
 
 function App() {
-  const [invtry, setInvtry] = useState([])
-
-  useEffect(() => {
-    setInvtry(getAllInvtry());
-  }, [])
-
-
   return (
     <>
-      {
-        invtry.map(invtry => <Cards invtry={invtry} key={invtry.id} />)
-      }
+      <BrowserRouter>
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/login' element={<Login />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
 
-export default App
+export default App;

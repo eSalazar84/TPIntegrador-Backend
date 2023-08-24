@@ -1,4 +1,4 @@
-export const initialInventary = {
+export const initialInventory = {
     id: "",
     title: "",
     price: "",
